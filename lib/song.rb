@@ -13,3 +13,9 @@ class Song
     end 
   end
 end 
+
+
+  @@sides = 10
+  def self.sides
+    @@sides
+  end
